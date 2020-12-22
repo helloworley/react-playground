@@ -2,6 +2,7 @@ import logo from './assets/logo.svg';
 import './styles/App.css';
 import Contact from './components/authorization-form/Contact';
 import ColorChanger from './components/color-changer/ColorChanger';
+import { FunFacts } from './components/animal-fun-facts/FunFacts';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <ColorChanger />
       <Contact />
+      <FunFacts />
     </div>
   );
 }
